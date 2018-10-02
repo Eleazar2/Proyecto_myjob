@@ -1,0 +1,10 @@
+<?php 
+session_start();
+if($_SESSION['usuario']){	
+	session_destroy();
+	header("location:../Vista/index.php");
+}
+else{
+	header("location:../Vista/index.php");
+}
+?>
