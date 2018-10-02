@@ -15,7 +15,7 @@ function enviarDatos(){
                  $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Registro Exitoso, </b>Ahora ya puedes acceder a MyJoB.COM</div>"); 
                                
             }else{
-                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>Fallo El Registro, </b>Verifica Tu Usuario y Contraseña</div>");          
+                 $("#resultado").html("<div class='alert alert-danger' role='alert'><b>El usuario ya existe!, </b>Verifica Tu Usuario y Contraseña</div>");          
             }
         },
         data:{
